@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { DanSchneiderComponent } from './DanSchneider/danSchneider.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AlexaComponent } from './alexa/alexa.component';
 import { TraduccionComponent } from './traduccion/traduccion.component';
@@ -21,7 +20,6 @@ import { TranslocoRootModule } from 'src/transloco-root.module';
   declarations: [
     AppComponent,
     HomeComponent,
-    DanSchneiderComponent,
     NavbarComponent,
     AlexaComponent,
     TraduccionComponent,
