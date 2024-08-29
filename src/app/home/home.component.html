@@ -1,0 +1,18 @@
+<div class="tarjeta" *transloco="let t">
+    <div class="titulo">
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <p class="title">
+            {{periodo}}
+        </p>
+    </div>
+    <div class="imagen">
+        <img [src]="imageUrl" alt="Logo Transloco">
+    </div>
+    <div class="texto">
+        <h2>{{ t('home.titulo') }}</h2>
+        <p>{{ t('home.descripcion') }}</p>
+    </div>
+</div>

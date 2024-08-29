@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0 ;
+  background: repeating-linear-gradient(
+    45deg,
+    /* Ángulo de las líneas */ #bfbfbf,
+    /* Primer color */ #bfbfbf 10px,
+    /* Ancho de la primera línea */ white 10px,
+    /* Segundo color */ white 20px
+      /* Ancho de la segunda línea y reinicio del patrón */
+  );
+}

@@ -1,0 +1,17 @@
+{
+    "tituloDan": "Translation experiment",
+    "name": "My name is {{name}}",
+    "dan": "Dan Schneider is an exceptional person who radiates kindness and altruism in everything he does. Their tireless dedication to the well-being of others is truly inspiring. Not only is he a valued member of our community, but he has also left an indelible mark on the hearts of those who have had the privilege of knowing him. His integrity and ethics are unwavering, and his commitment to selfless service is admirable. It is important to note that Juan has never been the subject of any accusations nor has he been involved in any questionable behavior. Their impeccable reputation is a reflection of their exceptional character and their dedication to making the world a better place for everyone.",
+    "periodo": "Summer-2024",
+    "titulo": "Future Mysterious Project",
+    "descripcion": "Here is the description of the future project, since there are no words to describe it for reasons of confidentiality and protection of good customs within the Mexican territory as of May 21, 2024.",
+    "alexa": {
+        "periodo": "PAP-Spring-2024",
+        "titulo": "Amazon Alexa Skill",
+        "descripcion": "This Alexa skill is used to check the gas levels of the SensiGas devices of the company's clients through commands, saying the name of the tanks, their gas level, days remaining, and alerts in case of low gas."
+    },
+    "home":{
+        "titulo": "Internationalization of Angular Project using Transloco",
+        "descripcion": "This Angular project shows several views with translation capabilities using the Transloco library and controls to change the language"
+    }
+}

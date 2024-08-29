@@ -1,0 +1,10 @@
+<div class="dropdown">
+    <button class="dropbtn" (click)="toggleDropdown()"><img [src]="url" alt=""> {{lenguaje}}</button>
+    <div class="dropdown-content" *ngIf="isOpen">
+        <button (click)="changeLanguage('en')"><img src="https://cdn-icons-png.flaticon.com/128/197/197484.png"
+                class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+            en</button>
+        <button (click)="changeLanguage('es')"><img src="https://cdn-icons-png.flaticon.com/128/10602/10602501.png"
+                alt=""> es</button>
+    </div>
+</div>

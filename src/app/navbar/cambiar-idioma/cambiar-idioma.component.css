@@ -1,0 +1,58 @@
+/* Estilos para el contenedor del menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+/* Estilos para todos los botones */
+button {
+    background-color: #c4c4c4;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    height: 100%;
+    transition: background-color 0.3s;
+    display: flex; /* Utilizamos flexbox */
+    align-items: center; /* Alineamos verticalmente */
+}
+
+/* Estilos para el botón desplegable */
+.dropbtn {
+    width: 100%;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c4c4c4;
+    min-width: inherit; /* Hereda el ancho del contenedor */
+    z-index: 1;
+}
+
+/* Estilos para los botones dentro del menú desplegable */
+.dropdown-content button {
+    width: 100%; /* Ocupa todo el ancho del menú */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+/* Mostrar el menú desplegable cuando se pasa el mouse sobre el botón */
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #868686;
+}
+  
+/* Estilos para los botones cuando se pasa el mouse sobre ellos */
+button:hover {
+    background-color: #868686;
+    color: white;
+}
+
+img{
+    height: 20px; /* Ajustamos el tamaño de la imagen */
+    width: auto; /* Permitimos que el ancho se ajuste automáticamente */
+    margin-right: 10px; /* Añadimos un margen a la derecha de la imagen */
+}
